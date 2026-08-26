@@ -1,105 +1,196 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mim - Felipe Simon</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Felipe Simon — Ciência de Dados</title>
+  <link rel="stylesheet" href="estilos/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="container">
+  <nav>
+    <div class="nav-logo">Felipe Simon</div>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
 
-        <header>
-            <h1>Felipe Simon</h1>
-            <p class="subtitulo">Estudante de Ciência de Dados</p>
-        </header>
-
-        <section>
-            <h2>Sobre Mim</h2>
-
-            <p>
-                Olá! Meu nome é Felipe Simon e sou estudante do curso de
-                Ciência de Dados na FATEC Ipiranga.
-            </p>
-
-            <p>
-                Tenho grande interesse por tecnologia, programação,
-                banco de dados, análise de dados e Business Intelligence.
-            </p>
-
-            <p>
-                Atualmente estou desenvolvendo meus conhecimentos em SQL,
-                Python, Power BI, Git e GitHub, buscando me tornar um profissional
-                cada vez mais preparado para o mercado de tecnologia.
-            </p>
-        </section>
-
-        <section>
-            <h2>Formação</h2>
-
-            <ul>
-                <li>Ciência de Dados - FATEC Ipiranga</li>
-                <li>Estudos em Banco de Dados e SQL</li>
-                <li>Cursos de Programação</li>
-                <li>Cursos de Power BI</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Habilidades</h2>
-
-            <div class="habilidades">
-                <span class="tag">SQL</span>
-                <span class="tag">Python</span>
-                <span class="tag">Power BI</span>
-                <span class="tag">HTML</span>
-                <span class="tag">CSS</span>
-                <span class="tag">Git</span>
-                <span class="tag">GitHub</span>
-            </div>
-        </section>
-
-        <section>
-            <h2>Objetivos Profissionais</h2>
-
-            <p>
-                Meu objetivo é construir uma carreira sólida na área de
-                dados, atuando com análise de dados, banco de dados ou
-                Business Intelligence.
-            </p>
-
-            <p>
-                Estou sempre em busca de novos desafios e oportunidades
-                para aplicar os conhecimentos adquiridos durante meus estudos.
-            </p>
-        </section>
-
-        <section>
-            <h2>Projetos e Interesses</h2>
-
-            <ul>
-                <li>Análise e limpeza de dados com Python e IBM Watson Studio.</li>
-                <li>Utilização do GitHub para versionamento.</li>
-                <li>Estudos de Business Intelligence com Power BI.</li>
-                <li>Exploração do universo de Ciência de Dados.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Contato</h2>
-
-            <p>Email: <a href="mailto:simonhot.com@gmail.com">simonhot.com@gmail.com</a></p>
-            <p>GitHub: <a href="https://github.com/simoonxp" target="_blank">github.com/simoonxp</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/felipe-simon-83ba10352" target="_blank">linkedin.com/in/felipe-simon-83ba10352</a></p>
-            <p>São Bernardo do Campo - SP</p>
-        </section>
-
-        <footer>
-            <p>© 2026 Felipe Simon - Todos os direitos reservados.</p>
-        </footer>
-
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-eyebrow">Estudante de Ciência de Dados</span>
+      <h1 class="hero-title">Olá, eu sou o <em>Felipe Simon</em></h1>
+      <p class="hero-desc">Transformando dados em decisões. Estudante na FATEC Ipiranga, apaixonado por análise de dados, SQL, Python e Power BI.</p>
+      <div class="hero-actions">
+        <a href="#projetos" class="btn-primary">Ver projetos</a>
+        <a href="#contato" class="btn-outline">Entrar em contato</a>
+      </div>
     </div>
+    <div class="hero-badge">
+      <div class="badge-circle">
+        <span class="badge-icon">📊</span>
+        <span class="badge-text">Disponível para Estágio</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Sobre mim</span>
+        <h2 class="section-title">Quem sou eu</h2>
+      </div>
+      <div class="sobre-grid">
+        <div class="sobre-text">
+          <p>Olá! Meu nome é Felipe Simon e sou estudante de <strong>Ciência de Dados</strong> na FATEC Ipiranga, no 2º semestre. Moro em São Bernardo do Campo, SP.</p>
+          <p>Tenho grande interesse por tecnologia, programação, banco de dados, análise de dados e Business Intelligence. Atualmente busco minha primeira oportunidade de estágio na área.</p>
+          <p>Estou desenvolvendo meus conhecimentos em SQL, Python, Power BI, NoSQL, Git e GitHub, buscando me tornar um profissional cada vez mais preparado para o mercado de tecnologia.</p>
+        </div>
+        <div class="sobre-info">
+          <div class="info-card">
+            <span class="info-icon">🎓</span>
+            <div>
+              <strong>FATEC Ipiranga</strong>
+              <span>Ciência de Dados — 2º semestre</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">📍</span>
+            <div>
+              <strong>São Bernardo do Campo</strong>
+              <span>São Paulo, Brasil</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">💼</span>
+            <div>
+              <strong>Disponível para estágio</strong>
+              <span>Área de dados e BI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades" id="habilidades">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Tecnologias</span>
+        <h2 class="section-title">Habilidades</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="skill-icon">🐍</span>
+          <strong>Python</strong>
+          <span>Manipulação de dados, lógica e estruturas</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">🗄️</span>
+          <strong>SQL</strong>
+          <span>Consultas, filtragem e estruturação de dados</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">📊</span>
+          <strong>Power BI</strong>
+          <span>Dashboards, DAX e visualização de dados</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">🍃</span>
+          <strong>NoSQL</strong>
+          <span>MongoDB e bancos não relacionais</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">🛠️</span>
+          <strong>Git & GitHub</strong>
+          <span>Versionamento e colaboração</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">🌐</span>
+          <strong>HTML & CSS</strong>
+          <span>Desenvolvimento web básico</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos" id="projetos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Portfólio</span>
+        <h2 class="section-title">Projetos</h2>
+      </div>
+      <div class="projetos-grid">
+        <div class="projeto-card destaque">
+          <div class="projeto-tag">Acadêmico • Vencedor 🏆</div>
+          <h3>Triângulo Mágico da Computação</h3>
+          <p>Plataforma digital interativa para visualização do Triângulo de Pascal. Vencedor na área de Ciências Exatas — Workshop UFABC 2025.</p>
+          <div class="projeto-techs">
+            <span>Python</span><span>React</span><span>Algoritmos</span>
+          </div>
+          <a href="https://github.com/simoonxp/triangulo-magico-da-computacao" target="_blank" class="projeto-link">Ver no GitHub →</a>
+        </div>
+
+        <div class="projeto-card">
+          <div class="projeto-tag">Análise de Dados</div>
+          <h3>Previsão de Fraude em Seguros</h3>
+          <p>Limpeza e exploração de dados de sinistros. Redução de 38 para 19 colunas e identificação de padrões de fraude via IBM Watson Studio.</p>
+          <div class="projeto-techs">
+            <span>IBM Watson</span><span>EDA</span><span>Data Cleaning</span>
+          </div>
+          <a href="https://github.com/simoonxp/auto-insurance-fraud-project" target="_blank" class="projeto-link">Ver no GitHub →</a>
+        </div>
+
+        <div class="projeto-card">
+          <div class="projeto-tag">Business Intelligence</div>
+          <h3>Dashboard de Vendas — Power BI</h3>
+          <p>Dashboard com 4 páginas analíticas, 15+ medidas DAX e identificação de 20 produtos gerando prejuízo de R$ 222,9 mil.</p>
+          <div class="projeto-techs">
+            <span>Power BI</span><span>DAX</span><span>Power Query</span>
+          </div>
+          <a href="https://github.com/simoonxp/dashboard-vendas-powerbi" target="_blank" class="projeto-link">Ver no GitHub →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Vamos conversar</span>
+        <h2 class="section-title">Contato</h2>
+      </div>
+      <div class="contato-grid">
+        <a href="mailto:simonhot.com@gmail.com" class="contato-card">
+          <span class="contato-icon">📧</span>
+          <strong>Email</strong>
+          <span>simonhot.com@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/felipe-simon-83ba10352" target="_blank" class="contato-card">
+          <span class="contato-icon">💼</span>
+          <strong>LinkedIn</strong>
+          <span>felipe-simon-83ba10352</span>
+        </a>
+        <a href="https://wa.me/5511975555814" target="_blank" class="contato-card">
+          <span class="contato-icon">💬</span>
+          <strong>WhatsApp</strong>
+          <span>(11) 97555-5814</span>
+        </a>
+        <a href="https://github.com/simoonxp" target="_blank" class="contato-card">
+          <span class="contato-icon">🐱</span>
+          <strong>GitHub</strong>
+          <span>github.com/simoonxp</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Felipe Simon — São Bernardo do Campo, SP</p>
+  </footer>
 
 </body>
 </html>
