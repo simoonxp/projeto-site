@@ -150,7 +150,8 @@ nav {
   flex-shrink: 0;
 }
 
-.badge-circle {
+/* .badge-circle removed */
+.badge-circle-old {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -469,4 +470,41 @@ footer {
   .projetos-grid { grid-template-columns: 1fr; }
   .contato-grid { grid-template-columns: 1fr 1fr; }
   section, .sobre, .habilidades, .projetos, .contato { padding: 60px 0; }
+}
+/* ── PHOTO ── */
+.hero-photo { flex-shrink: 0; }
+
+.photo-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-photo {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  border: 5px solid var(--branco);
+  box-shadow: 0 20px 60px rgba(37,99,235,0.25);
+  display: block;
+}
+
+.photo-badge {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--azul);
+  color: var(--branco);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 99px;
+  white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(37,99,235,0.4);
+}
+
+@media (max-width: 900px) {
+  .profile-photo { width: 200px; height: 200px; }
 }
